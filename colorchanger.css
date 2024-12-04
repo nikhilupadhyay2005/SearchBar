@@ -1,0 +1,30 @@
+#colorbox{
+    
+    display: flex;
+    margin-left: 15%;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top:50px;
+    background-color: #fff;
+    padding: 1rem;
+
+
+}
+
+h1{
+    text-align:center;
+    color: #6203e0;
+
+}
+
+#colorbox span{
+    display:inline-block;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    cursor:pointer;
+
+    
+    
+}
