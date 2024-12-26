@@ -1,0 +1,167 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+body{
+    background-color: black ;
+}
+
+.name-box{
+    height:90vh;
+    width:100%;
+  
+    display: flex;
+    
+}
+
+.left-box{
+    height:auto;
+    width:50%;
+    background-color: black;
+    
+
+}
+.project-card:hover{
+     margin-top: -1px;
+}
+label{
+    color: white;
+}
+progress{
+    height:20px; 
+    vertical-align:middle;
+   width: 100%;
+  margin-bottom: 20px;
+}
+.progress::-webkit-progress-value { background: red; }
+.progress-2::-webkit-progress-value { background: yellow; }
+.progress-3::-webkit-progress-value { background: BLUE; }
+.progress-4::-webkit-progress-value { background: GREEN; }
+.progress-5::-webkit-progress-value { background: darkgoldenrod; }
+.progress-6::-webkit-progress-value { background: darkcyan ; }
+.progress-7::-webkit-progress-value { background: darkolivegreen ;}
+.progress-8::-webkit-progress-value { background: darkorchid}
+
+
+.right-box{
+    height:auto;
+    width:50%;
+    background-color: black;
+}
+.computer-img{
+    height:auto;
+    width:80%;
+    padding:10%;
+    border-radius: 50%;
+    margin:auto;
+    margin-top: 5%;
+    box-shadow: rgba(252, 4, 4, 0.25) 0px 54px 55px, rgba(237, 5, 5, 0.12) 0px -12px 30px, rgba(255, 86, 86, 0.12) 0px 4px 6px, rgba(254, 43, 43, 0.17) 0px 12px 13px, rgba(247, 17, 17, 0.09) 0px -3px 5px;
+    
+    
+}
+
+.left-text{
+   
+    margin-top:15%;
+    font-size: 60px;
+    color:#fff;
+    margin-top:30%;
+    text-shadow: red  0px 5px 5px;
+    
+
+}
+
+
+.left-text2{
+ 
+
+    font-size: 30px;
+    color:white;
+    
+}
+.span-text{
+    color:grey;
+}
+
+.github-btn{
+    
+   
+    height:40px;
+    width:20%;
+    margin-top:50px;
+    border-radius:100px;
+    background-color: red;
+    border: none;
+    color:white;
+    
+
+}
+
+.left-box2{
+    margin-top: 10%;
+    width:50%;
+    background-color:black;
+   display: flex;
+   justify-content:space-between;
+}
+.text-area{
+    height:140px;
+    width:100%;
+    background-color:black;
+    
+}
+
+.project-text{
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    color:white;
+}
+.project-paragraph{
+    text-align: center;
+  
+    font-size:18px ;
+    color:red;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 
+    0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin:10px;
+}
+
+
+.primary{
+    height:80px;
+    width:20%;
+    margin:auto;
+   
+    padding-top:2%;
+    font-size: 23px;
+
+
+}
+
+
+
+.card-img{
+    height:150px;
+    width:100%;
+    
+}
+
+
+h1{
+    text-align: center;
+    color:white;
+    font-size:25px;
+}
+
+.span{
+    color:red;
+    font-size:30px;
+
+}
+
+
