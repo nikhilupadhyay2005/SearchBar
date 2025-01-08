@@ -1,3 +1,4 @@
+
 const monthNameE1=document.getElementById("month-name");
 const dayNameE1= document.getElementById("day-name");
 const dayNumE1= document.getElementById("day-number");
@@ -16,4 +17,4 @@ dayNameE1.innerText = date.toLocaleDateString("en",{
 });
 
 dayNumE1.innerText = date.getDate();
-yearE1.innerText=date.getFullYear0();
+yearE1.innerText=date.getFullYear();

@@ -1,21 +1,24 @@
 #colorbox{
     
     display: flex;
-    margin-left: 15%;
+    
     justify-content: space-around;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    margin-top:50px;
+    margin-top:70px;
     background-color: #fff;
     padding: 1rem;
 
 
 }
+body{
+    background-color: black;
+}
 
 h1{
     text-align:center;
-    color: #6203e0;
-
+    color: #f2f0f5;
+margin-top:10%;
 }
 
 #colorbox span{
