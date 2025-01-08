@@ -7,17 +7,11 @@ body{
     background-color: black ;
 }
 
-.name-box{
-    height:90vh;
-    width:100%;
-  
-    display: flex;
-    
-}
+
 
 .left-box{
     height:auto;
-    width:50%;
+   
     background-color: black;
     
 
@@ -46,7 +40,7 @@ progress{
 
 .right-box{
     height:auto;
-    width:50%;
+
     background-color: black;
 }
 .computer-img{
@@ -66,9 +60,9 @@ progress{
   
     font-size: 60px;
     color:#fff;
-    margin-top:30%;
+    margin-top:15%;
     text-shadow: red  0px 5px 5px;
-    margin-right: 30%;
+    margin-right: 46%;
     
 
 }
@@ -107,7 +101,7 @@ progress{
    justify-content:space-between;
 }
 .text-area{
-    height:140px;
+   
     width:100%;
     background-color:black;
     
@@ -192,9 +186,9 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 
 .about-page{
-    height:500px;
+    height:auto;
     width:100%;
-   
+   margin-top: 10%;
     display: flex;
     border: 1px  solid rgb(249, 15, 108 );
 
@@ -203,25 +197,22 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 
 
 .about-box-left{
-    height:500px;
-    width: 70%;
+    height:auto;
+    width: 100%;
+    padding: 10px;
     
 }
 
 
 .about-box-right{
-    height:500px;
-    width: 30%;
-   
-  
-
-    
-    
+    height:auto;
+    width: 100%;
+ 
 }
 .img{
-    height:400px;
+   height: 75%;
     width:80%;
-    border-radius:20%;
+    border-radius:15px;
     margin-top:10%;
     margin-left:20px;
     box-shadow: #df06fc00 0px -23px 25px 0px inset, rgba(4, 220, 240, 0.15) 0px -36px 30px 0px inset, rgba(223, 5, 235, 0.1) 0px -79px 40px 0px inset, rgba(156, 6, 232, 0.06) 0px 2px 1px, rgba(186, 5, 218, 0.09) 
@@ -232,7 +223,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 .qualification-paragraph{
     margin-left:10px;
     color:white;
-    margin-top:20%;
+    
 
 }
 
@@ -268,4 +259,42 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 
 .nav-href{
     color:white;
+}
+
+
+@media(max-width:578px){
+
+    .left-box2{
+        margin-top: 10%;
+        width:100%;
+        background-color:black;
+       display: flex;
+       justify-content:space-between;
+    }
+
+
+
+    .left-text {
+        font-size: 40px;
+        color: #fff;
+        margin-top: 15%;
+        width:100%;
+        text-shadow: red 0px 5px 5px;
+        margin-right: 50%;
+    }
+
+
+    .right-box {
+        height: auto;
+        background-color: black;
+        margin-left:10%;
+    }
+
+
+    .left-text2 {
+        font-size: 30px;
+        color: white;
+        margin-left:10%;
+    }
+    
 }
