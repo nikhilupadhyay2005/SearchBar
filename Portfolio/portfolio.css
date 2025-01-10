@@ -19,6 +19,15 @@ body{
     
 
 }
+.project-card{
+    border:none;
+    border-bottom: 2px solid white;
+    box-shadow: rgba(239, 36, 36, 0.25) 0px 54px 55px, rgba(247, 50, 50, 0.12) 0px -12px 30px, rgba(246, 53, 53, 0.12) 0px 4px 6px, rgba(247, 39, 39, 0.17) 0px 12px 13px, rgba(244, 29, 29, 0.09) 0px -3px 5px !important;
+    
+  
+  
+}
+
 .project-card:hover{
      margin-top: -1px;
 }
@@ -236,9 +245,18 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
     
 }
 .card-title1{
-    font-size:29px;
+    font-size:24px;
    
     
+}
+
+.card-4{
+    border-top-style:none;
+}
+
+
+.cards{
+    height:100px;
 }
 
 .card-body{
